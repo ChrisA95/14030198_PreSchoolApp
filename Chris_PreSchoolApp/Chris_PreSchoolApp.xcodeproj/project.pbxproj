@@ -133,6 +133,7 @@
 				831114BF1E5650E800B9380C /* ViewController.swift */,
 				834200D91E59192800B32C2E /* DraggedImageView.swift */,
 				831114C11E5650E800B9380C /* Main.storyboard */,
+				831114C61E5650E800B9380C /* LaunchScreen.storyboard */,
 				831114EC1E56559200B9380C /* number0.png */,
 				831114ED1E56559200B9380C /* number1.png */,
 				831114EE1E56559200B9380C /* number2.png */,
@@ -149,7 +150,6 @@
 				831114F91E56559200B9380C /* star_kids.png */,
 				831114FA1E56559200B9380C /* thumbs_up.png */,
 				831114C41E5650E800B9380C /* Assets.xcassets */,
-				831114C61E5650E800B9380C /* LaunchScreen.storyboard */,
 				831114C91E5650E800B9380C /* Info.plist */,
 			);
 			path = Chris_PreSchoolApp;
