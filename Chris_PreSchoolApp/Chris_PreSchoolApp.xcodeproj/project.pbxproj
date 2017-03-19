@@ -140,22 +140,8 @@
 				834200D91E59192800B32C2E /* DraggedImageView.swift */,
 				831114C11E5650E800B9380C /* Main.storyboard */,
 				831114C61E5650E800B9380C /* LaunchScreen.storyboard */,
-				83F8368A1E7EEC95003002B3 /* Music */,
-				831114EC1E56559200B9380C /* number0.png */,
-				831114ED1E56559200B9380C /* number1.png */,
-				831114EE1E56559200B9380C /* number2.png */,
-				831114EF1E56559200B9380C /* number3.png */,
-				831114F01E56559200B9380C /* number4.png */,
-				831114F11E56559200B9380C /* number5.png */,
-				831114F21E56559200B9380C /* number6.png */,
-				831114F31E56559200B9380C /* number7.png */,
-				831114F41E56559200B9380C /* number8.png */,
-				831114F51E56559200B9380C /* number9.png */,
-				831114EB1E56559200B9380C /* apple.png */,
-				831114F61E56559200B9380C /* plate_white.png */,
-				831114F81E56559200B9380C /* play_again.png */,
-				831114F91E56559200B9380C /* star_kids.png */,
-				831114FA1E56559200B9380C /* thumbs_up.png */,
+				83F8368A1E7EEC95003002B3 /* Sounds */,
+				83F8368B1E7F0F62003002B3 /* Images */,
 				831114C41E5650E800B9380C /* Assets.xcassets */,
 				831114C91E5650E800B9380C /* Info.plist */,
 			);
@@ -180,14 +166,36 @@
 			path = Chris_PreSchoolAppUITests;
 			sourceTree = "<group>";
 		};
-		83F8368A1E7EEC95003002B3 /* Music */ = {
+		83F8368A1E7EEC95003002B3 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
 				83F836861E7EEC81003002B3 /* relaxing.mp3 */,
 				83F836871E7EEC81003002B3 /* win2.wav */,
 				83F836841E7EE595003002B3 /* win.mp3 */,
 			);
-			name = Music;
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		83F8368B1E7F0F62003002B3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				831114EC1E56559200B9380C /* number0.png */,
+				831114ED1E56559200B9380C /* number1.png */,
+				831114EE1E56559200B9380C /* number2.png */,
+				831114EF1E56559200B9380C /* number3.png */,
+				831114F01E56559200B9380C /* number4.png */,
+				831114F11E56559200B9380C /* number5.png */,
+				831114F21E56559200B9380C /* number6.png */,
+				831114F31E56559200B9380C /* number7.png */,
+				831114F41E56559200B9380C /* number8.png */,
+				831114F51E56559200B9380C /* number9.png */,
+				831114EB1E56559200B9380C /* apple.png */,
+				831114F61E56559200B9380C /* plate_white.png */,
+				831114F81E56559200B9380C /* play_again.png */,
+				831114F91E56559200B9380C /* star_kids.png */,
+				831114FA1E56559200B9380C /* thumbs_up.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -24,8 +24,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var thumbs3: UIImageView!
     
     var ans = 0
-    var rand1 = Int(arc4random_uniform(5))
-    var rand2 = Int(arc4random_uniform(5))
+    var rand1 = Int(arc4random_uniform(4))
+    var rand2 = Int(arc4random_uniform(4))
     var sum = 0
     var bgSound: AVAudioPlayer?
     var check = 0
@@ -41,10 +41,6 @@ class ViewController: UIViewController {
         rand2 = Int(arc4random_uniform(5))
         sum = rand1 + rand2
         questionLabel.text = String(rand1) + " + " + String(rand2) + " = "
-        
-        
-        
-        
     }
     
     @IBAction func button(_ sender: AnyObject) {
