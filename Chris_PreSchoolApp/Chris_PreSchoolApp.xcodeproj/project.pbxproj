@@ -29,10 +29,14 @@
 		831115081E56559200B9380C /* play_again.png in Resources */ = {isa = PBXBuildFile; fileRef = 831114F81E56559200B9380C /* play_again.png */; };
 		831115091E56559200B9380C /* star_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = 831114F91E56559200B9380C /* star_kids.png */; };
 		8311150A1E56559200B9380C /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 831114FA1E56559200B9380C /* thumbs_up.png */; };
+		832EA9581E818E0A00AAECC9 /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832EA9571E818E0A00AAECC9 /* correct.wav */; };
+		832EA95B1E819B3D00AAECC9 /* chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 832EA9591E819B3D00AAECC9 /* chime.mp3 */; };
+		832EA95C1E819B3D00AAECC9 /* LowBeep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 832EA95A1E819B3D00AAECC9 /* LowBeep.mp3 */; };
+		832EA95E1E81AC5000AAECC9 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EA95D1E81AC5000AAECC9 /* cloud.png */; };
+		832EA9621E81B10300AAECC9 /* tree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 832EA9611E81B10300AAECC9 /* tree.jpg */; };
 		834200DA1E59192800B32C2E /* DraggedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834200D91E59192800B32C2E /* DraggedImageView.swift */; };
 		83F836851E7EE595003002B3 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83F836841E7EE595003002B3 /* win.mp3 */; };
 		83F836881E7EEC81003002B3 /* relaxing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83F836861E7EEC81003002B3 /* relaxing.mp3 */; };
-		83F836891E7EEC81003002B3 /* win2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 83F836871E7EEC81003002B3 /* win2.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,10 +85,14 @@
 		831114F81E56559200B9380C /* play_again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_again.png; sourceTree = SOURCE_ROOT; };
 		831114F91E56559200B9380C /* star_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_kids.png; sourceTree = SOURCE_ROOT; };
 		831114FA1E56559200B9380C /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_up.png; sourceTree = SOURCE_ROOT; };
+		832EA9571E818E0A00AAECC9 /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = correct.wav; sourceTree = SOURCE_ROOT; };
+		832EA9591E819B3D00AAECC9 /* chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chime.mp3; sourceTree = SOURCE_ROOT; };
+		832EA95A1E819B3D00AAECC9 /* LowBeep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LowBeep.mp3; sourceTree = SOURCE_ROOT; };
+		832EA95D1E81AC5000AAECC9 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = SOURCE_ROOT; };
+		832EA9611E81B10300AAECC9 /* tree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tree.jpg; path = ../tree.jpg; sourceTree = "<group>"; };
 		834200D91E59192800B32C2E /* DraggedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DraggedImageView.swift; sourceTree = "<group>"; };
 		83F836841E7EE595003002B3 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = SOURCE_ROOT; };
 		83F836861E7EEC81003002B3 /* relaxing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = relaxing.mp3; sourceTree = SOURCE_ROOT; };
-		83F836871E7EEC81003002B3 /* win2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win2.wav; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +146,8 @@
 				831114BD1E5650E800B9380C /* AppDelegate.swift */,
 				831114BF1E5650E800B9380C /* ViewController.swift */,
 				834200D91E59192800B32C2E /* DraggedImageView.swift */,
-				831114C11E5650E800B9380C /* Main.storyboard */,
 				831114C61E5650E800B9380C /* LaunchScreen.storyboard */,
+				831114C11E5650E800B9380C /* Main.storyboard */,
 				83F8368A1E7EEC95003002B3 /* Sounds */,
 				83F8368B1E7F0F62003002B3 /* Images */,
 				831114C41E5650E800B9380C /* Assets.xcassets */,
@@ -169,9 +177,11 @@
 		83F8368A1E7EEC95003002B3 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				832EA9591E819B3D00AAECC9 /* chime.mp3 */,
+				832EA95A1E819B3D00AAECC9 /* LowBeep.mp3 */,
 				83F836861E7EEC81003002B3 /* relaxing.mp3 */,
-				83F836871E7EEC81003002B3 /* win2.wav */,
 				83F836841E7EE595003002B3 /* win.mp3 */,
+				832EA9571E818E0A00AAECC9 /* correct.wav */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -179,6 +189,8 @@
 		83F8368B1E7F0F62003002B3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				832EA9611E81B10300AAECC9 /* tree.jpg */,
+				832EA95D1E81AC5000AAECC9 /* cloud.png */,
 				831114EC1E56559200B9380C /* number0.png */,
 				831114ED1E56559200B9380C /* number1.png */,
 				831114EE1E56559200B9380C /* number2.png */,
@@ -308,10 +320,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F836891E7EEC81003002B3 /* win2.wav in Resources */,
 				831114C81E5650E800B9380C /* LaunchScreen.storyboard in Resources */,
+				832EA9621E81B10300AAECC9 /* tree.jpg in Resources */,
 				831115041E56559200B9380C /* number8.png in Resources */,
 				831114C51E5650E800B9380C /* Assets.xcassets in Resources */,
+				832EA95E1E81AC5000AAECC9 /* cloud.png in Resources */,
 				831115031E56559200B9380C /* number7.png in Resources */,
 				83F836881E7EEC81003002B3 /* relaxing.mp3 in Resources */,
 				831115011E56559200B9380C /* number5.png in Resources */,
@@ -320,7 +333,10 @@
 				831114FD1E56559200B9380C /* number1.png in Resources */,
 				831114FC1E56559200B9380C /* number0.png in Resources */,
 				831115001E56559200B9380C /* number4.png in Resources */,
+				832EA9581E818E0A00AAECC9 /* correct.wav in Resources */,
 				831114FB1E56559200B9380C /* apple.png in Resources */,
+				832EA95B1E819B3D00AAECC9 /* chime.mp3 in Resources */,
+				832EA95C1E819B3D00AAECC9 /* LowBeep.mp3 in Resources */,
 				831114FE1E56559200B9380C /* number2.png in Resources */,
 				831114C31E5650E800B9380C /* Main.storyboard in Resources */,
 				83F836851E7EE595003002B3 /* win.mp3 in Resources */,
