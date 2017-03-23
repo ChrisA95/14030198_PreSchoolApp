@@ -10,6 +10,8 @@ import UIKit
 
 class DraggedImageView: UIImageView {
     
+    var applesReset1 = UIViewController()
+    
     var startLocation: CGPoint?
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

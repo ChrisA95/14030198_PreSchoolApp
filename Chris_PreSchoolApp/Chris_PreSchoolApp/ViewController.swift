@@ -61,7 +61,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var answerLabel: UILabel!
-        
+    
+    @IBOutlet weak var topPanel: UIView!
+    @IBOutlet weak var bottomPanel: UIView!
+    @IBOutlet weak var apple: UIImageView!
     
     @IBOutlet weak var congratsView: UIView!
     @IBOutlet weak var correctLabel: UILabel!
@@ -74,13 +77,24 @@ class ViewController: UIViewController {
     @IBOutlet weak var thumbs2: UIImageView!
     @IBOutlet weak var thumbs3: UIImageView!
     
-    var applesReset = DraggedImageView()
+    
+    //func handlePan(_ panGes: UIGestureRecognizer) {
+        //let point: CGPoint = panGes.location(in: apple)
+        //var appleBounds: CGRect = apple.bounds
+        //let bottomPanelView: CGRect = bottomPanel.frame
+        //var newX: CGFloat = min(point.x, appleBounds.size.width - bottomPanelView.size.width)
+        //newX = max(newX, 0.0)
+        //var newY: CGFloat = min(point.y, appleBounds.size.height - bottomPanelView.size.height)
+        //newY = max(newY, 0.0)
+        //appleBounds.origin.x = newX
+        //appleBounds.origin.y = newY
+        //bottomPanel.frame = bottomPanelView
+    //}
+
     var ans = 0
     var rand1 = Int(arc4random_uniform(4))
     var rand2 = Int(arc4random_uniform(4))
     var sum = 0
-    var bgSound: AVAudioPlayer?
-    var check = 0
     
     @IBAction func reset(_ sender: AnyObject) {
         answerLabel.alpha = 0
@@ -134,6 +148,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        topPanel.backgroundColor = UIColor.white.withAlphaComponent(0.7)
+        bottomPanel.backgroundColor = UIColor.clear
+        
+        //var appleBounds = apple.bounds
+        //bottomPanel.frame = CGRect(x: 0, y: 260, width: 414, height: 476)
         
         playbgMusic(filename: "relaxing.mp3")
         
