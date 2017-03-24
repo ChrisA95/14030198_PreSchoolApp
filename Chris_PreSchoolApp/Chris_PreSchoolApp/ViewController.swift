@@ -59,6 +59,8 @@ func playIncorrectSound(filename: String) {
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var tree: UIImageView!
+    
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var answerLabel: UILabel!
     
@@ -105,6 +107,7 @@ class ViewController: UIViewController {
         rand2 = Int(arc4random_uniform(5))
         sum = rand1 + rand2
         questionLabel.text = String(rand1) + " + " + String(rand2) + " = "
+        questionLabel.textColor = UIColor.white
     }
     
     @IBAction func button(_ sender: AnyObject) {
@@ -149,7 +152,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        topPanel.backgroundColor = UIColor.white.withAlphaComponent(0.7)
+        tree.alpha = 0.7
+        topPanel.backgroundColor = UIColor.clear //white.withAlphaComponent(0.5)
         bottomPanel.backgroundColor = UIColor.clear
         
         //var appleBounds = apple.bounds
